@@ -10,7 +10,9 @@ module.exports = {
     },
     extend: {
       colors:{
-        brightred: "#FF1800"
+        brightred: "#FF1800",
+        
+
       }
     },
   },

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,50 @@
     <link rel="stylesheet" href="css/main.css">
     <title>portfolio v2</title>
 </head>
+
 <body>
-   <h1 class="text-4xl"> Gordons portfolio using tailwind</h1>
-    <h2 class="text-3xl">is this working?</h2>
+    <!-- nav bar here links to sections on page -->
+    <nav class="bg-gray-400 flex space-around items-center width-100">
+        <div>
+            <h1 class="text">Gordon Draine's IV personal page</h1>
+        </div>
+        <div class="p-2">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Projects</a>
+            <a href="#">Links & contact</a>
+        </div>
+
+
+    </nav>
+
+    <!-- hero goes here -->
+    <main class="bg-blue-900 relative container width-100 ">
+        <h1 class="text">Gordon Draines portfolio</h1>
+        <!-- background image goes here low opacity  attempt to immitate the cutoff picture with generic pic-->
+        <h2 class="text color-brightred">Welcome to my portfolio my projects and qualifications are on display below</h2>
+
+    </main>
+
+    <!-- PROJECT SHOWCASE -->
+    <div class="relative container mx-auto p-5">
+        <card><img src="./images/plannerfix.PNG" alt="planner" class="width-50px"></card>
+        <card><img src="./images/pwgenerator.PNG" alt="generator"></card>
+        <card><img src="./images/weather_cap.PNG" alt="weahterapp"></card>
+        <card><img src="./images/weebhaven.PNG" alt="weeb"></card>
+        <card><img src="" alt=""></card>
+    </div>
+
+    <!-- links and resume -->
+    <div>
+        <a><img> linkedin</a>
+        <a><img> Twitter</a>
+        <a><img> Github</a>
+        <a><img> Resume PDF</a>
+        <a><img> Fortnite Stats</a>
+    </div>
+
+
 </body>
+
 </html>
