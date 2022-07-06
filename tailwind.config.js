@@ -8,6 +8,8 @@ module.exports = {
       lg: '1080px',
       xl: '1440px'
     },
+    
+
     extend: {
       colors:{
         brightred: "#FF1800",
@@ -15,6 +17,10 @@ module.exports = {
 
       }
     },
+
+    
+
+    
   },
   plugins: [],
 }
