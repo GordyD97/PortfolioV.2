@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @layer components {
+    
     .card {
         background-color: theme('colors.white');
         border-radius: theme('borderRadius.lg');
@@ -11,4 +12,9 @@
     }
 
     /* ... */
+
+    #herobg{
+        /* clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); */
+        clip-path: polygon(0 0, 23% 0, 100% 100%, 0 100%);
+    }
 }
