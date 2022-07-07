@@ -10,143 +10,151 @@
 </head>
 
 <body>
-    <!-- nav bar here links to sections on page -->
-    <nav class="bg-gray-400 flex space-around items-center">
-        <div>
-            <img src="./svg/person-circle.svg">
-            <h1 class="text">Gordon Draine's IV personal page</h1>
+    <div class="bg-gray-500">
+        <!-- nav bar here links to sections on page -->
+        <nav class="bg-gray-400 flex space-around items-center">
+            <div>
+                <img src="./svg/person-circle.svg">
+                <h1 class="text">Gordon Draine's IV personal page</h1>
+            </div>
+            <div class="flex space-x-6 ">
+                <a href="#" class="inline-block p-2 text-blue-800">Home</a>
+                <a href="#" class="inline-block p-2 text-blue-800">About</a>
+                <a href="#" class="inline-block p-2 text-blue-800">Projects</a>
+                <a href="#" class="inline-block p-2 text-blue-800">Links & contact</a>
+            </div>
+
+
+        </nav>
+
+        <!-- hero goes here -->
+        <div class="md:container md:mx-auto  bg-black h-80" style="background-image: url(./images/SkHFDL.webp)" id="herobg">
+
+            <div class="md:container md:mx-auto">
+                    <h1 class="text-blue-600 md:text-green-600">Gordon Draines portfolio</h1>
+                    
+                    <!-- background image goes here low opacity  attempt to immitate the cutoff picture with generic pic-->
+                    <!-- able to imitate the cutoff part dont know how to fix the opacity. -->
+                    
+                    <h2 class="text-blue-600 md:text-green-600">Welcome to my portfolio my projects and qualifications are
+                        on
+                        display below
+                    </h2>
+            </div>
+            
+          
+
         </div>
-        <div class="flex space-x-6">
-            <a href="#" class="inline-block p-2 text-blue-800">Home</a>
-            <a href="#" class="inline-block p-2 text-blue-800">About</a>
-            <a href="#" class="inline-block p-2 text-blue-800">Projects</a>
-            <a href="#" class="inline-block p-2 text-blue-800">Links & contact</a>
+
+        <!-- PROJECT SHOWCASE -->
+        <div class="md:container md:mx-auto px-9 columns-2 space-y-4 bg-orange-500">
+            <!-- first card -->
+            <div class="rounded overflow-hidden shadow-lg m-3 bg-gray-500">
+                <img class="w-full" src="./images/plannerfix.PNG" alt="">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2">Work day planner</div>
+                    <p class="text-gray-700 text-base">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et
+                        perferendis
+                        eaque, exercitationem praesentium nihil.
+                    </p>
+                </div>
+                <div class="px-6 pt-4 pb-2">
+                    <span
+                        class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#planner</span>
+                    <span
+                        class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#management</span>
+                    <span
+                        class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#local-save</span>
+                </div>
+            </div>
+            <!-- next card -->
+            <div class="rounded overflow-hidden shadow-lg m-3 bg-gray-500">
+                <img class="w-full" src="./images/pwgenerator.PNG" alt="">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2">Password Generator </div>
+                    <p class="text-gray-700 text-base">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et
+                        perferendis
+                        eaque, exercitationem praesentium nihil.
+                    </p>
+                </div>
+                <div class="px-6 pt-4 pb-2">
+                    <span
+                        class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#loop</span>
+                    <span
+                        class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#input</span>
+                    <span
+                        class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#random</span>
+                </div>
+            </div>
+            <!-- next card -->
+            <div class="rounded overflow-hidden shadow-lg m-3 bg-gray-500">
+                <img class="w-full" src="./images/weather_cap.PNG" alt="">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2">Weather Forecast Application</div>
+                    <p class="text-gray-700 text-base">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et
+                        perferendis
+                        eaque, exercitationem praesentium nihil.
+                    </p>
+                </div>
+                <div class="px-6 pt-4 pb-2">
+                    <span
+                        class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#API</span>
+                    <span
+                        class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Locator</span>
+                    <span
+                        class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#local
+                        storage</span>
+                </div>
+            </div>
+            <!-- next card -->
+            <div class="rounded overflow-hidden shadow-lg m-3 bg-gray-500">
+                <img class="w-full" src="./images/weebhaven.PNG" alt="">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2">Anime and manga locator</div>
+                    <p class="text-gray-700 text-base">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et
+                        perferendis
+                        eaque, exercitationem praesentium nihil.
+                    </p>
+                </div>
+                <div class="px-6 pt-4 pb-2">
+                    <span
+                        class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Anime</span>
+                    <span
+                        class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Manga</span>
+                    <span
+                        class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Store
+                        locator</span>
+                </div>
+            </div>
+
+
+
+
         </div>
 
+        <!-- links and resume -->
+        <div class="md:container md:mx-auto px-4  bg-blue-800">
+            <div>
+                <h1 class="text-3xl text-yellow-300 bg-brightred">my links :)</h1>
+            </div>
+            <!-- the cards will have icons pretaining to what link the user is about to be sent to. -->
+            <div class="columns-2 space-y-2.5">
+                <div class="card"><a><img src="./svg/linkedin.svg" alt="logo"> linkedin</a></div>
+                <div class="card"><a><img src="./svg/check-circle-fill.svg"> Twitter</a></div>
+                <div class="card"><a><img src="./svg/github.svg"> Github</a></div>
+                <div class="card"><a><img src="./svg/lightning-charge-fill.svg"> Resume PDF</a></div>
+                <div class="card"><a><img src="./svg/twitch.svg"> Fortnite Stats</a></div>
+                <div class="card"><a><img src="./svg/mailbox2.svg">email</a></div>
+            </div>
 
-    </nav>
+        </div>
 
-    <!-- hero goes here -->
-    <div class="md:container md:mx-auto bg-black h-80" style="background-image: url(./images/SkHFDL.webp)" id="herobg">
-        <h1 class="text-blue-600 md:text-green-600">Gordon Draines portfolio</h1>
-        <!-- background image goes here low opacity  attempt to immitate the cutoff picture with generic pic-->
-        <h2 class="text-blue-600 md:text-green-600">Welcome to my portfolio my projects and qualifications are on
-            display below
-        </h2>
-        <div class="tenor-gif-embed" data-postid="10723920" data-share-method="host" data-aspect-ratio="1.1375"
-            data-width="10%"><a href="https://tenor.com/view/boo-mario-crown-king-gif-10723920">Boo Mario GIF</a>from <a
-                href="https://tenor.com/search/boo-gifs">Boo GIFs</a></div>
-        <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
 
     </div>
-
-    <!-- PROJECT SHOWCASE -->
-    <div class="md:container md:mx-auto px-4 columns-2 space-y-4 bg-orange-500">
-        <!-- first card -->
-        <div class="rounded overflow-hidden shadow-lg m-3 bg-gray-500">
-            <img class="w-full" src="./images/plannerfix.PNG" alt="">
-            <div class="px-6 py-4">
-                <div class="font-bold text-xl mb-2">Mountain</div>
-                <p class="text-gray-700 text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et
-                    perferendis
-                    eaque, exercitationem praesentium nihil.
-                </p>
-            </div>
-            <div class="px-6 pt-4 pb-2">
-                <span
-                    class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-                <span
-                    class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-                <span
-                    class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
-            </div>
-        </div>
-        <!-- next card -->
-        <div class="rounded overflow-hidden shadow-lg m-3 bg-gray-500">
-            <img class="w-full" src="./images/pwgenerator.PNG" alt="">
-            <div class="px-6 py-4">
-                <div class="font-bold text-xl mb-2">Mountain</div>
-                <p class="text-gray-700 text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et
-                    perferendis
-                    eaque, exercitationem praesentium nihil.
-                </p>
-            </div>
-            <div class="px-6 pt-4 pb-2">
-                <span
-                    class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-                <span
-                    class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-                <span
-                    class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
-            </div>
-        </div>
-        <!-- next card -->
-        <div class="rounded overflow-hidden shadow-lg m-3 bg-gray-500">
-            <img class="w-full" src="./images/weather_cap.PNG" alt="">
-            <div class="px-6 py-4">
-                <div class="font-bold text-xl mb-2">Mountain</div>
-                <p class="text-gray-700 text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et
-                    perferendis
-                    eaque, exercitationem praesentium nihil.
-                </p>
-            </div>
-            <div class="px-6 pt-4 pb-2">
-                <span
-                    class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-                <span
-                    class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-                <span
-                    class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
-            </div>
-        </div>
-        <!-- next card -->
-        <div class="rounded overflow-hidden shadow-lg m-3 bg-gray-500">
-            <img class="w-full" src="./images/weebhaven.PNG" alt="">
-            <div class="px-6 py-4">
-                <div class="font-bold text-xl mb-2">Mountain</div>
-                <p class="text-gray-700 text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et
-                    perferendis
-                    eaque, exercitationem praesentium nihil.
-                </p>
-            </div>
-            <div class="px-6 pt-4 pb-2">
-                <span
-                    class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-                <span
-                    class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-                <span
-                    class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
-            </div>
-        </div>
-
-
-
-
-    </div>
-
-    <!-- links and resume -->
-    <div class="md:container md:mx-auto px-4  bg-blue-800">
-        <div>
-            <h1 class="text-3xl text-yellow-300 bg-brightred">my links :)</h1>
-        </div>
-        <!-- the cards will have icons pretaining to what link the user is about to be sent to. -->
-        <div class="columns-2 space-y-2.5">
-            <div class="card"><a><img src="./svg/linkedin.svg" alt="logo"> linkedin</a></div>
-            <div class="card"><a><img src="./svg/check-circle-fill.svg"> Twitter</a></div>
-            <div class="card"><a><img src="./svg/github.svg"> Github</a></div>
-            <div class="card"><a><img src="./svg/lightning-charge-fill.svg"> Resume PDF</a></div>
-            <div class="card"><a><img src="./svg/twitch.svg"> Fortnite Stats</a></div>
-            <div class="card"><a><img src="./svg/mailbox2.svg">email</a></div>
-        </div>
-
-    </div>
-
-
-
 </body>
 
 </html>

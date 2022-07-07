@@ -567,10 +567,31 @@ video {
 
 /* ... */
 
+/* This rule will help design the hero element of the page by introducing clipping poitns into the background image */
+
 #herobg{
   /* clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); */
-  -webkit-clip-path: polygon(0 0, 23% 0, 100% 100%, 0 100%);
-          clip-path: polygon(0 0, 23% 0, 100% 100%, 0 100%);
+  /* clip-path: polygon(0 0, 23% 0, 100% 100%, 0 100%); */
+  -webkit-clip-path: polygon(0 0, 0 0, 100% 100%, 0 100%);
+          clip-path: polygon(0 0, 0 0, 100% 100%, 0 100%);
+}
+
+h1{
+  font-size: larger;
+  font-weight: bold;
+}
+
+h2{
+  font-size: large;
+  font-weight: bold;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
 }
 
 .m-3 {
@@ -638,12 +659,21 @@ video {
   overflow: hidden;
 }
 
+.text-ellipsis {
+  text-overflow: ellipsis;
+}
+
 .rounded {
   border-radius: 0.25rem;
 }
 
 .rounded-full {
   border-radius: 9999px;
+}
+
+.bg-gray-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
 }
 
 .bg-gray-400 {
@@ -659,11 +689,6 @@ video {
 .bg-orange-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(249 115 22 / var(--tw-bg-opacity));
-}
-
-.bg-gray-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
 }
 
 .bg-gray-200 {
@@ -685,9 +710,9 @@ video {
   padding: 0.5rem;
 }
 
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
+.px-9 {
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
 }
 
 .px-6 {
@@ -708,6 +733,11 @@ video {
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .pt-4 {

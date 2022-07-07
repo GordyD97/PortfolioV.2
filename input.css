@@ -13,8 +13,18 @@
 
     /* ... */
 
+    /* This rule will help design the hero element of the page by introducing clipping poitns into the background image */
     #herobg{
         /* clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); */
-        clip-path: polygon(0 0, 23% 0, 100% 100%, 0 100%);
+        /* clip-path: polygon(0 0, 23% 0, 100% 100%, 0 100%); */
+        clip-path: polygon(0 0, 0 0, 100% 100%, 0 100%);
     }
+   h1{
+    font-size: larger;
+    font-weight: bold;
+   }
+   h2{
+    font-size: large;
+    font-weight: bold;  
+   }
 }
