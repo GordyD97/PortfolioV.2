@@ -11,47 +11,56 @@
 
 <body>
     <!-- nav bar here links to sections on page -->
-    <nav class="bg-gray-400 flex space-around items-center width-100">
+    <nav class="bg-gray-400 flex space-around items-center">
         <div>
             <h1 class="text">Gordon Draine's IV personal page</h1>
         </div>
-        <div class="p-2">
-            <a href="#" class="inline-block p-2 text-indigo-400">Home</a>
-            <a href="#" class="inline-block p-2 text-indigo-400">About</a>
-            <a href="#" class="inline-block p-2 text-indigo-400">Projects</a>
-            <a href="#" class="inline-block p-2 text-indigo-400">Links & contact</a>
+        <div class="flex space-x-6">
+            <a href="#" class="inline-block p-2 text-blue-800">Home</a>
+            <a href="#" class="inline-block p-2 text-blue-800">About</a>
+            <a href="#" class="inline-block p-2 text-blue-800">Projects</a>
+            <a href="#" class="inline-block p-2 text-blue-800">Links & contact</a>
         </div>
 
 
     </nav>
 
     <!-- hero goes here -->
-    <div class="container mx-auto w-full bg-red-700">
-        <h1 class="text">Gordon Draines portfolio</h1>
+    <div class="md:container md:mx-auto bg-black h-80">
+        <h1 class="text-blue-600 md:text-green-600">Gordon Draines portfolio</h1>
         <!-- background image goes here low opacity  attempt to immitate the cutoff picture with generic pic-->
-        <h2 class="text color-brightred">Welcome to my portfolio my projects and qualifications are on display below</h2>
+        <h2 class="text-blue-600 md:text-green-600">Welcome to my portfolio my projects and qualifications are on
+            display below</h2>
 
     </div>
 
     <!-- PROJECT SHOWCASE -->
-    <div class="container mx-auto px-4 columns-2 space-y-1.5 w-full bg-lime-500">
-        
+    <div class="md:container md:mx-auto px-4 columns-2 space-y-1.5 w-full bg-lime-500">
+
         <img src="./images/plannerfix.PNG" alt="planner" class="w-9/12 aspect-auto">
-        <img src="./images/pwgenerator.PNG" alt="generator"class="w-9/12 aspect-auto">
-        <img src="./images/weather_cap.PNG" alt="weahterapp"class="w-9/12 aspect-auto">
-        <img src="./images/weebhaven.PNG" alt="weeb"class="w-9/12 aspect-auto">
-       
+        <img src="./images/pwgenerator.PNG" alt="generator" class="w-9/12 aspect-auto">
+        <img src="./images/weather_cap.PNG" alt="weahterapp" class="w-9/12 aspect-auto">
+        <img src="./images/weebhaven.PNG" alt="weeb" class="w-9/12 aspect-auto">
+
         <!-- <img src="" alt=""> -->
     </div>
 
     <!-- links and resume -->
-    <div>
-        <a><img> linkedin</a>
-        <a><img> Twitter</a>
-        <a><img> Github</a>
-        <a><img> Resume PDF</a>
-        <a><img> Fortnite Stats</a>
+    <div class="md:container md:mx-auto px-4 columns-2 space-y-1.5 w-full 32 bg-blue-800">
+        <div>
+            <h1 class="text">my links :)</h1>
+        </div>
+<!-- the cards will have icons pretaining to what link the user is about to be sent to. -->
+        <div>
+            <div class="card"><a><img src="./svg/linkedin.svg" alt="logo"> linkedin</a></div>
+            <div class="card"><a><img src="./svg/check-circle-fill.svg"> Twitter</a></div>
+            <div class="card"><a><img src="./svg/github.svg"> Github</a></div>
+            <div class="card"><a><img src="./svg/lightning-charge-fill.svg"> Resume PDF</a></div>
+            <div class="card"><a><img src="./svg/twitch.svg"> Fortnite Stats</a></div>
+        </div>
+
     </div>
+
 
 
 </body>

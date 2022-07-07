@@ -15,8 +15,14 @@ module.exports = {
         brightred: "#FF1800",
         
 
+      },
+      lineHeight: {
+        "extra-loose": "2.5rem"
+      },
+      padding: {
+
       }
-    },
+    }
 
     
 
