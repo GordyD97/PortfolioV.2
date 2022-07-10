@@ -572,8 +572,7 @@ video {
 #herobg{
   /* clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); */
   /* clip-path: polygon(0 0, 23% 0, 100% 100%, 0 100%); */
-  -webkit-clip-path: polygon(0 0, 0 0, 100% 100%, 0 100%);
-          clip-path: polygon(0 0, 0 0, 100% 100%, 0 100%);
+  /* clip-path: polygon(0 0, 0 0, 100% 100%, 0 100%); */
 }
 
 h1{
@@ -586,12 +585,12 @@ h2{
   font-weight: bold;
 }
 
-.absolute {
-  position: absolute;
+.right-0 {
+  right: 0px;
 }
 
-.relative {
-  position: relative;
+.z-40 {
+  z-index: 40;
 }
 
 .m-3 {
@@ -610,16 +609,16 @@ h2{
   display: inline-block;
 }
 
-.flex {
-  display: flex;
-}
-
 .h-80 {
   height: 20rem;
 }
 
 .w-full {
   width: 100%;
+}
+
+.w-44 {
+  width: 11rem;
 }
 
 .columns-2 {
@@ -659,10 +658,6 @@ h2{
   overflow: hidden;
 }
 
-.text-ellipsis {
-  text-overflow: ellipsis;
-}
-
 .rounded {
   border-radius: 0.25rem;
 }
@@ -671,24 +666,28 @@ h2{
   border-radius: 9999px;
 }
 
-.bg-gray-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+.rounded-lg {
+  border-radius: 0.5rem;
 }
 
-.bg-gray-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
+.rounded-t-lg {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
 }
 
-.bg-black {
+.bg-oldmauv {
   --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  background-color: rgb(91 35 51 / var(--tw-bg-opacity));
 }
 
-.bg-orange-500 {
+.bg-cinnabar {
   --tw-bg-opacity: 1;
-  background-color: rgb(249 115 22 / var(--tw-bg-opacity));
+  background-color: rgb(242 67 51 / var(--tw-bg-opacity));
+}
+
+.bg-darkliver {
+  --tw-bg-opacity: 1;
+  background-color: rgb(86 77 74 / var(--tw-bg-opacity));
 }
 
 .bg-gray-200 {
@@ -696,14 +695,9 @@ h2{
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
-.bg-blue-800 {
+.bg-cultured {
   --tw-bg-opacity: 1;
-  background-color: rgb(30 64 175 / var(--tw-bg-opacity));
-}
-
-.bg-brightred {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 24 0 / var(--tw-bg-opacity));
+  background-color: rgb(247 244 243 / var(--tw-bg-opacity));
 }
 
 .p-2 {
@@ -786,14 +780,19 @@ h2{
   color: rgb(37 99 235 / var(--tw-text-opacity));
 }
 
+.text-aero {
+  --tw-text-opacity: 1;
+  color: rgb(121 190 238 / var(--tw-text-opacity));
+}
+
 .text-gray-700 {
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
-.text-yellow-300 {
+.text-carbelian {
   --tw-text-opacity: 1;
-  color: rgb(253 224 71 / var(--tw-text-opacity));
+  color: rgb(186 27 29 / var(--tw-text-opacity));
 }
 
 .shadow-lg {

@@ -8,12 +8,16 @@ module.exports = {
       lg: '1080px',
       xl: '1440px'
     },
-    
+
 
     extend: {
-      colors:{
-        brightred: "#FF1800",
-        
+      colors: {
+        oldmauv: '#5B2333',
+        cultured: '#F7F4F3',
+        darkliver: '#564D4A',
+        cinnabar: '#F24333',
+        carbelian: '#BA1B1D',
+        aero: '#79BEEE'
 
       },
       lineHeight: {
@@ -24,9 +28,9 @@ module.exports = {
       }
     }
 
-    
 
-    
+
+
   },
   plugins: [],
 }
