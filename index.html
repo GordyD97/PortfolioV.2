@@ -14,17 +14,23 @@
         <!-- nav bar here links to sections on page -->
         <nav class="bg-oldmauv items-center">
             <div>
-                <img src="./svg/person-circle.svg">
-                <h1 class="text">Gordon Draine's IV personal page</h1>
+                <!-- <img src="./svg/person-circle.svg"> -->
+                <h1 class="text-4xl">Gordon Draine's IV personal page</h1>
             </div>
             <div class="space-x-6 right-0">
-                <a href="#" class="inline-block rounded-t-lg p-2 text-blue-800 bg-cinnabar">Home</a>
-                <a href="#" class="inline-block rounded-t-lg p-2 text-blue-800 bg-cinnabar">About</a>
-                <a href="#" class="inline-block rounded-t-lg p-2 text-blue-800 bg-cinnabar">Projects</a>
-                <a href="#" class="inline-block rounded-t-lg p-2 text-blue-800 bg-cinnabar">Links & contact</a>
+                <button
+                    class="bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 rounded-t-lg ml-2"><a
+                        href="#" class="inline-block  p-2 inset-x-0 bottom-0">Home</a></button>
+                <button
+                    class="bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 rounded-t-lg"><a
+                        href="#" class="inline-block  p-2 inset-x-0 bottom-0">About</a></button>
+                <button
+                    class="bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 rounded-t-lg"><a
+                        href="#projectshowcase" class="inline-block  p-2 inset-x-0 bottom-0">Projects</a></button>
+                <button
+                    class="bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 rounded-t-lg"><a
+                        href="#links" class="inline-block  p-2 inset-x-0 bottom-0">Links & contact</a></button>
             </div>
-
-
         </nav>
 
         <!-- hero goes here -->
@@ -32,33 +38,33 @@
             id="herobg">
 
             <div class="md:container z-40 md:mx-auto">
-                <h1 class="text-blue-600 md:text-green-600">Gordon Draines portfolio</h1>
+                <h1 class="text-blue-600 md:text-green-600 text-center text-4xl">Gordon Draines portfolio</h1>
 
                 <!-- background image goes here low opacity  attempt to immitate the cutoff picture with generic pic-->
                 <!-- able to imitate the cutoff part dont know how to fix the opacity. -->
                 <!-- adding z index and opacity to the site  -->
 
-                <h2 class="text-blue-600 md:text-green-600">Welcome to my portfolio my projects and qualifications are
+                <h2 class="text-blue-600 md:text-green-600 text-center text-4xl">
+                    Welcome to my portfolio my projects and
+                    qualifications are
                     on
-                    display below
+                    display below!
                 </h2>
             </div>
-
-
 
         </div>
 
         <!-- PROJECT SHOWCASE -->
-        <div class="md:container md:mx-auto px-9 columns-2 space-y-4 bg-darkliver">
+        <div class="md:container md:mx-auto px-9 columns-2 space-y-4 mb-8 bg-darkliver" id="projectshowcase">
             <!-- first card -->
             <div class="rounded overflow-hidden shadow-lg m-3 bg-oldmauv">
                 <img class="w-full" src="./images/plannerfix.PNG" alt="">
                 <div class="px-6 py-4">
                     <div class="font-bold text-xl mb-2">Work day planner</div>
                     <p class="text-aero text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et
-                        perferendis
-                        eaque, exercitationem praesentium nihil.
+                        This application uses vanilla javascript. moment.JS and bootstrap framework to create a day
+                        planner that is reactive to time. The planner Uses the moment.js application to
+                        make the input bars change colors reactive to time.
                     </p>
                 </div>
                 <div class="px-6 pt-4 pb-2">
@@ -76,9 +82,9 @@
                 <div class="px-6 py-4">
                     <div class="font-bold text-xl mb-2">Password Generator </div>
                     <p class="text-aero text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et
-                        perferendis
-                        eaque, exercitationem praesentium nihil.
+                        This application uses vanilla javascript to create a randomly generated password. The user is
+                        prompetd with questions on how they would like their password to be
+                        the user is given multiple choices like special characters and password length.
                     </p>
                 </div>
                 <div class="px-6 pt-4 pb-2">
@@ -96,9 +102,12 @@
                 <div class="px-6 py-4">
                     <div class="font-bold text-xl mb-2">Weather Forecast Application</div>
                     <p class="text-aero text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et
-                        perferendis
-                        eaque, exercitationem praesentium nihil.
+                        This application uses an API technolgy to search and find the local wetaher for cast for the
+                        present day and the future five days.
+                        Using the open source api "openweather maps" I the develpoer am, able to locate a location with
+                        a valid "city code" to find the local weather.
+                        Ive also implemented using local storage to save past saves so the user can back track and
+                        select past searched cities.
                     </p>
                 </div>
                 <div class="px-6 pt-4 pb-2">
@@ -117,9 +126,12 @@
                 <div class="px-6 py-4">
                     <div class="font-bold text-xl mb-2">Anime and manga locator</div>
                     <p class="text-aero text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et
-                        perferendis
-                        eaque, exercitationem praesentium nihil.
+                        This Application was a coloborative project, in this project technolgies such as API's and
+                        bootstrap frame work was used
+                        Apis such as a manga/anime title generator as well as a map api application. The titles were
+                        randomly generated using the Anime generator. The map/gps
+                        is implemented to track local stores that would be carrying the title that the user had
+                        selected.
                     </p>
                 </div>
                 <div class="px-6 pt-4 pb-2">
@@ -137,19 +149,33 @@
 
 
         </div>
+        <!-- add about me section -->
+        <!-- add text prompt -->
+        <!-- add animations and styling for about me prompt -->
+        <!-- do something to grab the users attention -->
 
         <!-- links and resume -->
-        <div class="md:container md:mx-auto px-4  bg-oldmauv">
+        <div class="md:container md:mx-auto px-4  bg-oldmauv" id="links">
             <div>
                 <h1 class="md:container w-44 text-3xl rounded-lg text-carbelian bg-cultured">my links :)</h1>
             </div>
             <!-- the cards will have icons pretaining to what link the user is about to be sent to. -->
+            <!-- use a popout or a pdf dispaly to display resume when clicked -->
+            <!-- fix resume -->
+            <!-- add links and buttons to elements-->
+            <!-- add hover to buttons -->
             <div class="columns-2 space-y-2.5">
-                <div class="card bg-darkliver"><a href=""><img src="./svg/linkedin.svg" alt="logo"> linkedin</a></div>
-                <div class="card bg-darkliver"><a href=""><img src="./svg/check-circle-fill.svg"> Twitter</a></div>
-                <div class="card bg-darkliver"><a href=""><img src="./svg/github.svg"> Github</a></div>
-                <div class="card bg-darkliver"><a href=""><img src="./svg/lightning-charge-fill.svg"> Resume PDF</a></div>
-                <div class="card bg-darkliver"><a href=""><img src="./svg/twitch.svg"> Fortnite Stats</a></div>
+                <div class="card bg-darkliver"><a href="https://www.linkedin.com/in/gordon-draine-iv-08a058142/"><img
+                            src="./svg/linkedin.svg" alt="logo"> linkedin</a></div>
+                <div class="card bg-darkliver"><a href="https://twitter.com/Gordy_40"><img
+                            src="./svg/check-circle-fill.svg"> Twitter</a></div>
+                <div class="card bg-darkliver"><a href="https://github.com/GordyD97"><img src="./svg/github.svg">
+                        Github</a></div>
+                <div class="card bg-darkliver"><a href=""><img src="./svg/lightning-charge-fill.svg"> Resume PDF</a>
+                </div>
+                <div class="card bg-darkliver"><a
+                        href="https://destinytracker.com/destiny-2/profile/steam/4611686018470715895/overview"><img
+                            src="./svg/icons8-destiny-2.svg"> Destiny Stats</a></div>
                 <div class="card bg-darkliver"><a href=""><img src="./svg/mailbox2.svg">email</a></div>
             </div>
 
