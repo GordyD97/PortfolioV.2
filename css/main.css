@@ -626,10 +626,6 @@ h2{
   display: inline-block;
 }
 
-.flex {
-  display: flex;
-}
-
 .h-80 {
   height: 20rem;
 }
@@ -772,6 +768,11 @@ h2{
   text-align: center;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -790,11 +791,6 @@ h2{
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .font-bold {
